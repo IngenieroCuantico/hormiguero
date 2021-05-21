@@ -5,7 +5,6 @@
         </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="index.css">
-        
     </head>
   <body>
 
@@ -16,43 +15,44 @@
         <h2>El Hormiguero</h2> 
         
     </header>
+    
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img src="img/hormiguero.jpg" width="40" height="40">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Noticias</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Despliegue
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Accion</a>
-                  <a class="dropdown-item" href="#">Otra Accion</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Deshabilitado</a>
-              </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-black bg-black">
+                <img src="img/hormiguero.jpg" width="40" height="40">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             </form>
-          </div>
+                 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Despliegue
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Accion</a>
+                    <a class="dropdown-item" href="#">Otra Accion</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">algom mas aqui</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Deshabilitado</a>
+                </li>
+                </ul>           
+            </div>            
         </nav>
-      </header>
+    </header>
     
     
     <!-- BLOG CARDS -->
@@ -300,51 +300,66 @@
         </div>
     </div>
     <!-- PROFILE CARDS 2 -->
-    <h3>Profile Cards</h3>
+    <h3>Perfiles</h3>
     <div class="cards-6 section-gray">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card card-profile">
                         <div class="card-image">
                             <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png">
-                                <div class="card-caption"> John Smith </div>
+                                <div class="card-caption"> Dumar Rodriguez </div>
                             </a>
                         </div>
                         <div class="table">
-                            <h6 class="category text-danger">CEO / Co-Founder</h6>
-                            <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                            <h6 class="category text-danger">CEO / Ingeniero De Sistemas</h6>
+                            <p class="card-description"> Desarrollador de software es mi pasion, Mi Proyecto De Vida</p>
                             <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card card-profile">
                         <div class="card-image">
                             <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png">
-                                <div class="card-caption"> Clementine Thson </div>
+                                <div class="card-caption"> Cristian Villanueva </div>
                             </a>
                         </div>
                         <div class="table">
-                            <h6 class="category text-success">Graphic Designer</h6>
-                            <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                            <h6 class="category text-success">Director</h6>
+                            <p class="card-description">el arte de transmitir un espacio para un amplio espacio de opinion</p>
                             <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card card-profile">
                         <div class="card-image">
                             <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png">
-                                <div class="card-caption"> Elanor Aline</div>
+                                <div class="card-caption"> Cristian Andres Pulido</div>
                             </a>
                         </div>
                         <div class="table">
-                            <h6 class="category text-info">Front End Developer</h6>
-                            <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
+                            <h6 class="category text-info">Secretario General</h6>
+                            <p class="card-description"> Secretario General /Licenciado En Historia Y Sociales </p>
                             <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-profile">
+                        <div class="card-image">
+                            <a href="#"><img class="img" src="#">
+                                <div class="card-caption">Camilo Salinas</div>
+                            </a>
+                        
+                        </div>
+                        <div class="table">
+                            <h6 class="category text-info">Camilo Salinas</h6>
+                            <p class="card-description">Diseñador Grafico</p>
+                            <div class="ftr"><a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
+                        </div>
+                    </div>                
                 </div>
             </div>
         </div>
@@ -545,11 +560,6 @@
         </div>
     </div>
 </article>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
-</html>
+<?php require 'include/footer.php' ?>
 
 
