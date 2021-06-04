@@ -1,15 +1,26 @@
-const http = require("http");
 
-const host = 'localhost';
-const port = 8000;
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 
-const requeridoEscuchando = function(req, res){
-    res.writeHead(200);
-    res.end("Mi Primer Servidor");
-};
+const app = express();
 
-/** creacion de servidor */
-const server=http.createServer(requeridoEscuchando);
-server.listen(port, host, () =>{
-    console.log(`servidor DarkLidght corriendo en http:// ${host}:${port}`);
+var corsOptions={
+    origin: "http://localhost:8081"
+}
+app.use(cors(corsOptions));
+// parse requests of content-type - application/json
+
+app.unsubscribe(bodyParser.json());
+
+
+// simple route
+app.get("/", (req, res) => {
+  res.json({ message: "Bienvenido Al Servidor Del Hormiguero" });
+});
+
+// set port, listen for requests
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto: ${PORT}.`);
 });
